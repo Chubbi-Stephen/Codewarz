@@ -13,7 +13,7 @@ const openOrSenior = (data) => {
 
   data.map((one) => {
     if (one[0] >= 55 && one[1] > 7) {
-      output.push("senior")
+      output.push("Senior")
     } else {
       output.push("Open")
     }
